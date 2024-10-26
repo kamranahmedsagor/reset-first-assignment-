@@ -1,0 +1,174 @@
+.mono{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+
+/* header-section-style */
+
+
+.header-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+    
+}
+.resume{
+    width: 150px;
+    height: 34px;
+    margin-top: 20px;
+}
+
+.banner-img{
+    background-image: url('assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 1416px;
+   
+}
+.banner-description{
+    display: flex;
+    flex-direction: column;
+ justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact-btn{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* header-section-end */
+
+
+/* second-section-style start  */
+  
+.second-title{
+   display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 200px;
+ text-align: center;
+
+    
+}
+.desk-one{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 200px;
+
+}
+.desk-one  button{
+    padding: 10px;
+}
+
+/* desk two start  */
+
+.desk-two {
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 200px;
+
+    
+}
+.desk-two button{
+    padding: 10px;
+}
+
+/* desk three start  */
+
+.desk-three{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 200px;
+
+}
+.desk-three button{
+    padding: 10px;
+}
+
+
+.inspire{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container{
+    margin: 0 200px;
+    border-radius: 50px;
+}
+/* current section style  */
+
+.current-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 200px;
+    text-align: center;
+}
+
+.current-target{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 200px;
+}
+
+.react{
+    display: flex;
+    margin: 100px 200px;
+    gap: 20px;
+}
+.node{
+    display: flex; 
+    margin: 100px 200px; 
+    gap: 20px;
+    
+}
+.mongodb{
+    display: flex;
+    margin: 100px 200px;  
+    gap: 20px; 
+}
+ 
+/* need support styles  */
+
+.need-support{
+    background-image: url('assets/handshake.jpg');
+    height: 413px;
+    width: 1140px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.need-support button{
+    padding: 10px;
+    border-radius: 5px;
+}
+input{
+    width: 500px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* footer style  */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin:100px 200px ;
+}
